@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
-
+import { Link } from 'react-router-dom';
 
 import images from '../../constants/images'
 import './Navbar.css';
@@ -11,21 +11,21 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <a href="/">
+        <Link to="/">
         <img src={images.dyronn} alt="app logo" />
-        </a>
+        </Link>
       </div>
       <ul className="app__navbar-links">
-        <li className="p__opensans"><a href="/dyronn-kitchen/">Home</a></li>
+        <li className="p__opensans"><Link to="/">Home</Link></li>
         <li className="p__opensans"><a href="/dyronn-kitchen/#about">About</a></li>
-        <li className="p__opensans"><a href="/dyronn-kitchen/menu">Menu</a></li>
+        <li className="p__opensans"><Link to="/menu">Menu</Link></li>
         {/* <li className="p__opensans"><a href="#awards">Awards</a></li> */}
         <li className="p__opensans"><a href="/dyronn-kitchen/#contact">Contact</a></li>
       </ul>
       <div className="app__navbar-order">
-        <a href="/dyronn-kitchen/order" className="p__opensans">Order</a>
+        <Link to="/order" className="p__opensans">Order</Link>
         <div />
-        <a href="/dyronn-kitchen/" className="p__opensans">Book Table</a>
+        <Link to="/" className="p__opensans">Book Table</Link>
       </div>
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => setToggleMenu(true)} />
@@ -34,11 +34,11 @@ const Navbar = () => {
         <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
           <MdOutlineRestaurantMenu fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
           <ul className="app__navbar-smallscreen-links">
-            <li className="p__opensans"><a href="/dyronn-kitchen/">Home</a></li>
+            <li className="p__opensans"><Link to="/">Home</Link></li>
             <li className="p__opensans"><a href="/dyronn-kitchen/#about">About</a></li>
-            <li className="p__opensans"><a href="/dyronn-kitchen/menu">Menu</a></li>
+            <li className="p__opensans"><Link to="/menu">Menu</Link></li>
             <li className="p__opensans"><a href="/dyronn-kitchen/#contact">Contact</a></li>
-            <li className="p__opensans"><a href="/dyronn-kitchen/order">Order</a></li>
+            <li className="p__opensans"><Link to="/order">Order</Link></li>
           </ul>
         </div>
         )}
