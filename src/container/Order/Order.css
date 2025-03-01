@@ -1,0 +1,144 @@
+/* .container-contact-page {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-black);
+    
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+
+}
+
+.contact-form{
+    margin-left: 50px;
+}
+
+.order-list{
+    list-style: none;
+} */
+
+/* Order.css */
+
+/* Container that centers the form on the page */
+.container-contact-page {
+    width: 100%; 
+    height: 60vh;  /* Limit how wide the form gets */
+    margin: 0 auto;     /* Center horizontally */
+    padding: 2rem;      /* Spacing around the content */
+    box-sizing: border-box;
+    background-color: var(--color-black);
+  }
+  
+  /* Inner wrapper for the form */
+  .contact-form {
+    background-color: var(--color-black);  /* White background for contrast */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* If you have a heading component, ensure it’s centered */
+  .contact-form h2,
+  .contact-form .subheading-title {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  /* The UL that holds all form fields */
+  .order-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  
+    /* Flex layout so we can have "half" items side by side */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* Spacing between items */
+  }
+  
+  /* Default each list item to take full width */
+  .order-list li {
+    flex: 1 1 100%;
+  }
+  
+  /* “.half” items share a row, each ~50% wide */
+  .order-list li.half {
+    flex: 1 1 calc(50% - 1rem);
+  }
+  
+  /* Style for text inputs, email, phone, date, etc. */
+  .order-list input[type="text"],
+  .order-list input[type="email"],
+  .order-list input[type="tel"],
+  .order-list input[type="date"],
+  .order-list textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Give the textarea some height */
+  .order-list textarea {
+    min-height: 100px;
+    resize: vertical; /* Let user resize vertically if needed */
+  }
+  
+  /* Radio buttons alignment */
+  .order-list input[type="radio"] {
+    margin-right: 0.5rem;
+    transform: translateY(1px); /* Slight vertical align tweak */
+  }
+  
+  /* Submit button styling */
+  .flat-button {
+    padding: 0.75rem 1.5rem;
+    background-color: #1C2951;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  /* Hover state for the button */
+  .flat-button:hover {
+    background-color: #020c28;
+  }
+  
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+
+li {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    
+    overflow: hidden;
+    display: block;
+    clear: both;
+    position: relative;
+    animation: fadeInUp 2s 2s;
+    animation-fill-mode: forwards; 
+}
+
+p{
+    color: white;
+}
+
+label{
+    color: white;
+}
+
+/* li.half {
+    width: 49%;
+    margin-left: 2%;
+    float: left;
+    clear: none;
+
+} */
