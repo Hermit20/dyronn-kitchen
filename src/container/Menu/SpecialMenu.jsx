@@ -3,12 +3,14 @@ import React from 'react';
 import './SpecialMenu.css';
 import { Link } from 'react-router-dom';
 
-
+import {Navbar} from '../../components';
 import { SubHeading } from '../../components';
 const SpecialMenu = () => (
 
-  <div className="menu__header app__wrapper section__padding" id="home">
-    
+  <div className="menu__header  section__padding" id="home">
+    <div className = "navbar">
+      <Navbar />
+    </div>
     <div className="menu__wrapper_info">
       <SubHeading title="Chase the new flavour" />
       <p className="menu__header-h1">

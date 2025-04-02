@@ -58,24 +58,24 @@ const cocktails = [
 
 const awards = [
   {
-    imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    imgUrl: images.award05,
+    title: 'Ekene A',
+    subtitle: 'Dyronn kitchen can always be trusted to make your kitchen experience great. Their meals are delicious and are always served fresh. What makes them unique is their high quality management style. Oge can go above and beyond to put a smile on your face. Their array of continental dishes and local African cuisine is next to none. They are the best!',
   },
   {
     imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Lovelyn Odeh',
+    subtitle: 'I love the entire staff of Dyronn kitchen. The food, the customer service is excellent. Everything is 10/10. I highly recommend their services.',
   },
   {
-    imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    imgUrl: images.award05,
+    title: 'Kosisochukwu Obiechina',
+    subtitle: 'I had a great experience with Dyronn kitchen.Their customer service was excellent, delivery was right on time and the food was absolutely delicious. Everyone loved it! Would definitely recommend',
+  },
+  {
+    imgUrl: images.award05,
+    title: 'Tomi Grant',
+    subtitle: 'Outstanding culinary experience! The food is absolutely divine! Each dish was beautifully presented, fresh and bursting with flavor. The soups, rice, fish, beef, chicken, stew and moi-moi were cooked to perfection. Overall the meals exceeded my expectation in every way. If you’re looking for high quality food and exceptional service, Dyronn Kitchen is the place to go.',
   },
 ];
 

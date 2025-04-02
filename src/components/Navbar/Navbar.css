@@ -1,17 +1,19 @@
+
 .app__navbar{
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: var(--color-black);
     height: 150px;
     padding: 1rem 2rem;
-    
+
+   
 
 }
 
 
 .app__navbar-logo{
+    
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -27,7 +29,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    padding-left: 80px;
     list-style: none;
 }
 
@@ -64,7 +66,7 @@
     border-bottom: 1px solid var(--color-golden);
 }
 
-.app__navbar-order div {
+.app__navbar-links div {
     width: 1px;
     height: 30px;
     background-color: var(--color-grey);
@@ -74,18 +76,40 @@
     display: none;
 }
 
-.app__navbar-smallscreen_overlay{
+.app__navbar-smallscreen_overlay {
     position: fixed;
     top: 0;
     left: 0;
-    width: 87%;
-    height: 100%;
+    width: 100%; /* Covers entire width */
+    height: 100vh; /* Covers full height */
     background: var(--color-black);
-    transition: 0.5s ease;
-
+    transition: all 0.5s ease;
+    display: flex;
     flex-direction: column;
-    z-index: 5;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
 }
+
+.app__navbar-smallscreen-links {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.app__navbar-smallscreen-links li {
+    margin: 2rem;
+    cursor: pointer;
+    color: var(--color-golden);
+    font-size: 2rem;
+    font-family: var(--font-base);
+}
+
+.app__navbar-smallscreen-links li:hover {
+    color: var(--color-white);
+}
+
 
 .app__navbar-smallscreen_overlay .overlay__close{
     font-size: 27px;
@@ -99,22 +123,6 @@
 }
 
 
-.app__navbar-smallscreen-links {
-    list-style: none;
-}
-
-.app__navbar-smallscreen-links li{
-    margin: 2rem;
-    cursor: pointer;
-    color: var(--color-golden);
-    font-size: 2rem;
-    text-align: center;
-    font-family: var(--font-base);
-}
-
-.app__navbar-smallscreen-links li:hover {
-    color: var(--color-white);
-}
 
 
 @media screen and (max-width: 2000px){

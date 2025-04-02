@@ -80,11 +80,11 @@
 }
 
 .p__opensans {
-  font-family: var(--font-alt);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: var(--color-white);
   font-weight: 400;
-  letter-spacing: 0.04em;
-  text-transform: capitalize;
+  letter-spacing: 0.04px;
+  
   line-height: 28px;
   font-size: 16px;
 }

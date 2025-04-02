@@ -6,23 +6,23 @@ import './AboutUs.css';
 const AboutUs = () => (
   <div className="app__aboutus app__bg flex__center section__padding" id="about">
     <div className="app__aboutus-overlay flex__center">
-      <img src={images.dyronn} alt="dyronn_overlay" />
+      {/* <img src={images.dyronn} alt="dyronn_overlay" /> */}
     </div>
 
 
     <div className="app__aboutus-content flex__center">
       <div className="app__aboutus-content_about">
-        <h1 className="headtext__cormorant">About Us</h1>
-        <img src={images.spoon} alt="about_spoon" className="spoon__img" />
-        <p className="p__opensans">Dyronn Kitchen is a Nigerian-owned catering company specializing in West African-inspired cuisine,
-          officially established in 2022. Our vision is deeply rooted in the passion for delivering an unforgettable culinary experience that brings people together
-          through the universal language of food. We believe that food is more than nourishment—it is a bridge between cultures, a storyteller of traditions,
-          and a celebration of heritage. At Dyronn Kitchen, we are dedicated to sharing the rich, bold flavors of West Africa, connecting continents through taste and time.
+        <h1 className="headtext__cormorant">ABOUT US</h1>
+        {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
+        <p className="p__opensans">Dyronn Kitchen is a local Nigerian-owned catering company specializing in West African-inspired and Western cuisine, 
+          officially established in 2023. As a small yet, mighty business, our vision is deeply rooted in the passion for delivering an unforgettable culinary experience that 
+          brings people together through the universal language of food. We believe that food is more than nourishment—it is a bridge between cultures, a storyteller of traditions, 
+          and a celebration of heritage. 
         </p>
         
       </div>
 
-      <div className="app__aboutus-content_knife flex__center">
+      {/* <div className="app__aboutus-content_knife flex__center">
         <img src={images.founder} alt="about_knife" />
       </div>
 
@@ -36,7 +36,7 @@ const AboutUs = () => (
           Today, Dyronn Kitchen has scaled its operations while remaining committed to a community-oriented approach, blending tradition, innovation, and the warmth of West African hospitality into every dish.
         </p>
         
-      </div>
+      </div> */}
     </div>
   </div >
 );

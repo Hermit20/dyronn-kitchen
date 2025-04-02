@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react'
 import emailjs from 'emailjs-com';
 import "./Order.css"
 import { SubHeading } from '../../components';
+import {Navbar} from '../../components';
 const Order = () => {
     const form = useRef();
     const [isEventOrder, setIsEventOrder] = useState(false);
@@ -33,10 +34,13 @@ const Order = () => {
             });
     };
     return (
+        
         <div className="container-contact-page">
-
+            <div className = "navbar">
+                <Navbar />
+            </div>
             <div className="contact-form">
-                <SubHeading title="Order Here" />
+                
                 <form ref={form} onSubmit={sendEmail}>
                     <ul className="order-list">
                         <li className="half">

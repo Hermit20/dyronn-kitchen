@@ -1,10 +1,10 @@
 import bg from '../assets/bg.png';
 import chef from '../assets/chef.png';
 import G from '../assets/G.png';
-import gallery01 from '../assets/gallery01.png';
-import gallery02 from '../assets/gallery02.png';
-import gallery03 from '../assets/gallery03.png';
-import gallery04 from '../assets/gallery04.png';
+import gallery01 from '../assets/gallery01.jpg';
+import gallery02 from '../assets/gallery02.jpg';
+import gallery03 from '../assets/gallery03.jpg';
+import gallery04 from '../assets/gallery04.jpg';
 import knife from '../assets/knife.png';
 import logo from '../assets/logo.png';
 import menu from '../assets/menu.png';
@@ -22,8 +22,9 @@ import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
 import dyronn from '../assets/Dyronn-Kitchen.png';
 import dk from '../assets/DK-Food2.jpg';
-import founder from '../assets/Dyronn-founder.jpg';
-
+import founder from '../assets/Dyronn_Founder.jpg';
+import background from "../assets/Dyronn_Background.jpg"
+import fivestars from '../assets/5-stars.jpg'
 export default {
   bg,
   chef,
@@ -50,4 +51,6 @@ export default {
   dyronn,
   dk,
   founder,
+  background,
+  fivestars,
 };

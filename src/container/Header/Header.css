@@ -1,5 +1,10 @@
 .app__header{
-    background-color: var(--color-black);
+    /* background-image: url(../../assets/Dyronn_Background.jpg); */
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.82)), var(--background-image);
+    margin: auto;
+    align-items: center;
+    /* Centers vertically */
+    
 }
 
 .app__header-h1{
@@ -16,10 +21,47 @@
     width: 80%;
 }
 
+.navbar {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    z-index: 10;
+  }
 
-.app__wrapper_img img {
-    border: 8px solid ;
-    border-color: var(--color-golden);
+.app__wrapper_img  {
+    padding-top: 50px;
+    position: relative;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    text-align: center;
+    justify-content: sp;
+    
+    
+    
+}
+
+.app__wrapper_img img{
+    padding-top: 150px;
+    max-width: 100%;
+    height: auto;
+
+   
+}
+
+.logo-text{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: red;
+  margin-top: 10px; /* Spacing between image and text */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -41,11 +83,19 @@
         font-size: 70px;
         line-height: 87px;
     }
+    .app__header{
+        height: auto;
+        width: auto;
+    }
 }
 
 @media screen and (max-width: 450px) {
     .app__header-h1 {
         font-size: 50px;
         line-height: 70px;
+    }
+    .app__header{
+        height: auto;
+        width: auto;
     }
 }

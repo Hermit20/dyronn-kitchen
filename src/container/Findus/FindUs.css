@@ -1,0 +1,102 @@
+.find__us {
+   background-color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+   padding: 4rem 2rem;
+}
+
+.FindUS_info {
+   max-width: 800px;
+   width: 100%;
+   padding: 2rem;
+   background: rgba(255, 255, 255, 0.1);
+   border-radius: 12px;
+   box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+.headtext__cormorant {
+   font-size: 2.5rem;
+   color: var(--color-golden);
+   font-weight: bold;
+}
+
+.app__wrapper-text {
+   margin-top: 1.5rem;
+}
+
+.p__opensans {
+   font-size: 1.2rem;
+   color: white;
+   line-height: 1.5;
+   margin: 0.5rem 0;
+}
+
+.app__footer-links_icons {
+   display: flex;
+   justify-content: center;
+   gap: 1.5rem;
+   margin-top: 1rem;
+}
+
+.app__footer-links_icons svg {
+   font-size: 2rem;
+   color: var(--color-golden);
+   cursor: pointer;
+   transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.app__footer-links_icons svg:hover {
+   transform: scale(1.2);
+   color: #FFD700;
+}
+
+/* Responsive Design */
+
+/* Tablets */
+@media screen and (max-width: 900px) {
+   .FindUS_info {
+       padding: 1.5rem;
+   }
+
+   .headtext__cormorant {
+       font-size: 2rem;
+   }
+
+   .p__opensans {
+       font-size: 1rem;
+   }
+
+   .app__footer-links_icons svg {
+       font-size: 1.8rem;
+   }
+}
+
+/* Mobile Screens */
+@media screen and (max-width: 600px) {
+   .app__bg {
+       padding: 3rem 1rem;
+   }
+
+   .FindUS_info {
+       padding: 1.2rem;
+   }
+
+   .headtext__cormorant {
+       font-size: 1.8rem;
+   }
+
+   .p__opensans {
+       font-size: 0.9rem;
+   }
+
+   .app__footer-links_icons {
+       gap: 1rem;
+   }
+
+   .app__footer-links_icons svg {
+       font-size: 1.5rem;
+   }
+}

@@ -1,28 +1,40 @@
-.menu__header{
+.menu__header {
     background-color: var(--color-black);
+    text-align: center; /* Ensures links and text are centered */
+    padding: 20rem 1rem !important; /* Adds spacing */
+    height: 100% !important;
+    width: 100% !important;
 }
 
-.menu__header-h1{
-    
+.menu__header-h1 {
     color: var(--color-golden);
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    line-height: 117px;
-    font-size: 30px;
+    line-height: 1.5; /* Adjusted line-height */
+    font-size: 28px;
     font-family: var(--font-base);
-    
-
+    margin: 1rem 0; /* Adds spacing between menu items */
 }
 
+.menu__header-h1 a {
+    display: block; /* Makes each menu item a block for better tapability */
+    padding: 0.5rem 0;
+}
 
-.menu__header-h1 a:hover{
-    border-bottom: 1px solid var(--color-golden);
+.menu__header-h1 a:hover {
+    border-bottom: 2px solid var(--color-golden);
     cursor: pointer;
 }
 
-
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 768px) {
     .menu__header-h1 {
-        font-size: 23px;
+        font-size: 20px;
+        line-height: 1.3;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .menu__header-h1 {
+        font-size: 18px;
     }
 }

@@ -3,7 +3,7 @@
 :root {
   --font-base: 'Cormorant Upright', serif;
   --font-alt: 'Open Sans', sans-serif;
-  
+  --background-image: url('assets/Dyronn_Background.jpg');
   --color-golden: #DCCA87;
   --color-black: #0C0C0C;
   --color-gray: #545454;
