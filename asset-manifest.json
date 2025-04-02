@@ -1,37 +1,39 @@
 {
   "files": {
-    "main.css": "/dyronn-kitchen/static/css/main.4f057474.css",
-    "main.js": "/dyronn-kitchen/static/js/main.804d1eb1.js",
+    "main.css": "/dyronn-kitchen/static/css/main.e744c965.css",
+    "main.js": "/dyronn-kitchen/static/js/main.8766ea76.js",
     "static/media/meal.mp4": "/dyronn-kitchen/static/media/meal.a1b6c6dc67dfa2f99343.mp4",
     "static/media/bg.png": "/dyronn-kitchen/static/media/bg.3d421b1b5682e1b67deb.png",
+    "static/media/gallery03.jpg": "/dyronn-kitchen/static/media/gallery03.5b8da568194762507f63.jpg",
+    "static/media/gallery02.jpg": "/dyronn-kitchen/static/media/gallery02.a90f216dbd3179b2c3f6.jpg",
+    "static/media/gallery04.jpg": "/dyronn-kitchen/static/media/gallery04.83bd1c35b73ae4588410.jpg",
+    "static/media/gallery01.jpg": "/dyronn-kitchen/static/media/gallery01.27641ed519a11ef42266.jpg",
     "static/media/welcome.png": "/dyronn-kitchen/static/media/welcome.d724eb984456d9c97470.png",
     "static/media/findus.png": "/dyronn-kitchen/static/media/findus.585c393ccd3671513743.png",
     "static/media/laurels.png": "/dyronn-kitchen/static/media/laurels.e760828692795d4aafd7.png",
     "static/media/chef.png": "/dyronn-kitchen/static/media/chef.02d6c5b61bfdc70303b4.png",
     "static/media/menu.png": "/dyronn-kitchen/static/media/menu.a8287c67809afebcc280.png",
-    "static/media/gallery04.png": "/dyronn-kitchen/static/media/gallery04.c36a695f8a3b9d311106.png",
-    "static/media/gallery03.png": "/dyronn-kitchen/static/media/gallery03.b2d50180e8590d4dd330.png",
-    "static/media/gallery02.png": "/dyronn-kitchen/static/media/gallery02.27663bd9016b72ccd328.png",
-    "static/media/gallery01.png": "/dyronn-kitchen/static/media/gallery01.f2cbffe3049d6f91e0df.png",
+    "static/media/Dyronn_Founder.jpg": "/dyronn-kitchen/static/media/Dyronn_Founder.1ac19f8a5fa46ea28642.jpg",
     "static/media/DK-Food2.jpg": "/dyronn-kitchen/static/media/DK-Food2.9148767a9ba3f8feb7ef.jpg",
+    "static/media/Dyronn_Background.jpg": "/dyronn-kitchen/static/media/Dyronn_Background.4055eca126c0b91417c6.jpg",
     "static/media/knife.png": "/dyronn-kitchen/static/media/knife.1121c0a5afb62acb31cb.png",
     "static/media/overlaybg.png": "/dyronn-kitchen/static/media/overlaybg.165362eea72d1614ae28.png",
-    "static/media/Dyronn-founder.jpg": "/dyronn-kitchen/static/media/Dyronn-founder.3f68422fed60374e9d22.jpg",
     "static/media/Dyronn-Kitchen.png": "/dyronn-kitchen/static/media/Dyronn-Kitchen.c0f6645bfd878a3ab58a.png",
+    "static/media/5-stars.jpg": "/dyronn-kitchen/static/media/5-stars.6b8075a2b79086ad8b1d.jpg",
+    "static/media/sign.png": "/dyronn-kitchen/static/media/sign.da88b6379c0514b26e62.png",
     "static/media/G.png": "/dyronn-kitchen/static/media/G.b571eb82e589ec305ec9.png",
     "static/media/logo.png": "/dyronn-kitchen/static/media/logo.0286194c03de0a90dac9.png",
     "static/media/award02.png": "/dyronn-kitchen/static/media/award02.8bbdd51499739653b003.png",
     "static/media/award05.png": "/dyronn-kitchen/static/media/award05.48a7f5206184009dcb29.png",
     "static/media/award01.png": "/dyronn-kitchen/static/media/award01.361a4bc44b59b55abeda.png",
     "static/media/award03.png": "/dyronn-kitchen/static/media/award03.3f7ee934c17dccbd5fc6.png",
-    "static/media/sign.png": "/dyronn-kitchen/static/media/sign.9bf0bd90ad4caa17991f.png",
     "index.html": "/dyronn-kitchen/index.html",
     "static/media/spoon.svg": "/dyronn-kitchen/static/media/spoon.d079f43fbcf509908d3865293080795a.svg",
-    "main.4f057474.css.map": "/dyronn-kitchen/static/css/main.4f057474.css.map",
-    "main.804d1eb1.js.map": "/dyronn-kitchen/static/js/main.804d1eb1.js.map"
+    "main.e744c965.css.map": "/dyronn-kitchen/static/css/main.e744c965.css.map",
+    "main.8766ea76.js.map": "/dyronn-kitchen/static/js/main.8766ea76.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f057474.css",
-    "static/js/main.804d1eb1.js"
+    "static/css/main.e744c965.css",
+    "static/js/main.8766ea76.js"
   ]
 }
