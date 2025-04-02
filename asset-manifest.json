@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dyronn-kitchen/static/css/main.e744c965.css",
-    "main.js": "/dyronn-kitchen/static/js/main.8766ea76.js",
+    "main.js": "/dyronn-kitchen/static/js/main.93d9d244.js",
     "static/media/meal.mp4": "/dyronn-kitchen/static/media/meal.a1b6c6dc67dfa2f99343.mp4",
     "static/media/bg.png": "/dyronn-kitchen/static/media/bg.3d421b1b5682e1b67deb.png",
     "static/media/gallery03.jpg": "/dyronn-kitchen/static/media/gallery03.5b8da568194762507f63.jpg",
@@ -30,10 +30,10 @@
     "index.html": "/dyronn-kitchen/index.html",
     "static/media/spoon.svg": "/dyronn-kitchen/static/media/spoon.d079f43fbcf509908d3865293080795a.svg",
     "main.e744c965.css.map": "/dyronn-kitchen/static/css/main.e744c965.css.map",
-    "main.8766ea76.js.map": "/dyronn-kitchen/static/js/main.8766ea76.js.map"
+    "main.93d9d244.js.map": "/dyronn-kitchen/static/js/main.93d9d244.js.map"
   },
   "entrypoints": [
     "static/css/main.e744c965.css",
-    "static/js/main.8766ea76.js"
+    "static/js/main.93d9d244.js"
   ]
 }
